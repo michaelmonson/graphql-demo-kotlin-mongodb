@@ -48,7 +48,7 @@
 		</dependency>
         <!-- GraphQL UI at '/graphiql' by default - GraphQL testing -->
 		<dependency>
-			<groupId>com.graphql-java-kickstart</com></groupId>
+			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>graphiql-spring-boot-starter</artifactId>
 			<version>5.5.0</version>
 		</dependency>
