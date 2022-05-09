@@ -39,6 +39,26 @@
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
 
+		<!--<GraphQL Dependencies>-->
+		<!-- Enable GraphQL servlet-mapping at URI - '/graphql' -->
+		<dependency>
+			<groupId>com.graphql-java-kickstart</groupId>
+			<artifactId>graphql-spring-boot-starter</artifactId>
+			<version>5.7.0</version>
+		</dependency>
+        <!-- GraphQL UI at '/graphiql' by default - GraphQL testing -->
+		<dependency>
+			<groupId>com.graphql-java-kickstart</com></groupId>
+			<artifactId>graphiql-spring-boot-starter</artifactId>
+			<version>5.5.0</version>
+		</dependency>
+		<!-- Tools to help map a GraphQL schema to existing Java objects -->
+		<dependency>
+			<groupId>com.graphql-java-kickstart</groupId>
+			<artifactId>graphql-java-tools</artifactId>
+			<version>5.4.1</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>

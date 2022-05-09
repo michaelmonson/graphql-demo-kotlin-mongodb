@@ -27,6 +27,9 @@ with Spring Boot and MongoDB, and its benefits over REST implementation.
 Query type is a root type in GraphQL schema used to create a query to fetch the data from GraphQL server. 
 It's commonly used to define read-only (GET) operations.
 
+Note: Array or List of objects are indicated with a pair of square/box brackets, and an explanation point 
+(exclamatory symbol) indicates as its mandatory/required property.
+
 ## Mutation Type:
 
 Mutation type is another root type in GraphQL schema, used to define operations to manipulate data (POST, PUT, DELETE).

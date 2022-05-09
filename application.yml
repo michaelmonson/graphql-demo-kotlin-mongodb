@@ -1,0 +1,15 @@
+## Server port
+server:
+  port: 9997
+
+## Graphiql Mapping
+graphiql:
+  mapping: gadget-ui
+
+## MongoDB configuration (optional - if not provided spring boot takes default values)
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: srsgadgetdb
