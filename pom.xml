@@ -12,9 +12,9 @@
 	<artifactId>graphqldemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>graphqldemo</name>
-	<description>GraphQL QuickStart with Spring Boot, Kotlin and MongoDB</description>
+	<description>GraphQL QuickStart API with Spring Boot, Kotlin and MongoDB</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 		<kotlin.version>1.6.21</kotlin.version>
 	</properties>
 	<dependencies>
@@ -22,6 +22,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+		<!--
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -38,20 +49,26 @@
 			<groupId>org.jetbrains.kotlin</groupId>
 			<artifactId>kotlin-stdlib-jdk8</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
 
-		<!--<GraphQL Dependencies>-->
-		<!-- Enable GraphQL servlet-mapping at URI - '/graphql' -->
+		<!--<GraphQL and related Dependencies>-->
+		<!-- Enable GraphQL servlet-mapping at URL - '/graphql' -->
 		<dependency>
 			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>graphql-spring-boot-starter</artifactId>
 			<version>5.7.0</version>
 		</dependency>
-        <!-- GraphQL UI at '/graphiql' by default - GraphQL testing -->
+		
+        <!-- To enable GraphQL UI at default url '/graphiql' - helpful for GraphQL testing -->
 		<dependency>
 			<groupId>com.graphql-java-kickstart</groupId>
 			<artifactId>graphiql-spring-boot-starter</artifactId>
 			<version>5.5.0</version>
 		</dependency>
+		
 		<!-- Tools to help map a GraphQL schema to existing Java objects -->
 		<dependency>
 			<groupId>com.graphql-java-kickstart</groupId>

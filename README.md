@@ -11,6 +11,23 @@ GraphQL offers the following features and advantages over traditional REST API's
 In this article, we’ll see what is GraphQL, the benefits of using GraphQL by building a simple GraphQL server 
 with Spring Boot and MongoDB, and its benefits over REST implementation.
 
+<!-- Visual Documentation -->
+
+![help_image.png](img.png)
+
+# Testing Gadget Mutation:
+
+![help_image_2.png](img_2.png)
+
+# Testing Gadget Queries:
+
+![help_image_3.png](img_3.png)
+
+Verify MongoDB database for Gadget collection, where we can find 3 documents as below:
+
+![help_image_5.png](img_5.png)
+
+<!-- Additional Documentation -->
 ## How GraphQL solves REST API drawbacks:
 
 * GraphQL provides the flexibility to consumers to request for the attributes as needed (provides dynamic data in request). 
